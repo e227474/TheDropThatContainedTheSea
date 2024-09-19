@@ -13,8 +13,16 @@ h1 {
     color: aliceblue;
 }
 
-a {
+a:link {
     color: rgb(218, 218, 219);
     cursor: pointer;
     text-decoration: none;
 }
+
+a:visited {
+    color: rgb(139, 139, 140)
+}
+
+a:hover {
+    color: aliceblue;
+  }
