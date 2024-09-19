@@ -5,3 +5,10 @@ body {
     word-break: break-word;
     background-color: #282828;
 }
+
+h1 {
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    color: aliceblue;
+}
