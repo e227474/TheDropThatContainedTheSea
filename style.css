@@ -12,3 +12,9 @@ h1 {
     font-weight: bold;
     color: aliceblue;
 }
+
+a {
+    color: rgb(218, 218, 219);
+    cursor: pointer;
+    text-decoration: none;
+}
