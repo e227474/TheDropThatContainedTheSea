@@ -27,10 +27,12 @@ a:hover {
     color: aliceblue;
   }
 
-.linkbox {
+div {
     border-style: solid;
     border-radius: 16px;
     color: rgb(218, 218, 219;
     width:fit-content;
-    padding: 5px;
+    padding: 5pt;
+    padding-left: 10pt;
+    padding-right: 10pt;
 }
