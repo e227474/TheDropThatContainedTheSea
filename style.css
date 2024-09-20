@@ -26,3 +26,9 @@ a:visited {
 a:hover {
     color: aliceblue;
   }
+
+.linkbox {
+    border-style: solid;
+    border-radius: 16px;
+    color: rgb(218, 218, 219;
+}
