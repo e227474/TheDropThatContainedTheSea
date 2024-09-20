@@ -31,4 +31,6 @@ a:hover {
     border-style: solid;
     border-radius: 16px;
     color: rgb(218, 218, 219;
+    width:auto;
+    padding: 3pt;
 }
