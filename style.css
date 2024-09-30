@@ -11,6 +11,7 @@ h1 {
     font-size: 5em;
     font-weight: bold;
     color: aliceblue;
+    margin: 10px;
 }
 
 a:link {
@@ -36,6 +37,8 @@ a:hover {
     padding-left: 10pt;
     padding-right: 10pt;
     font-size: 2em;
+    margin: 25px;
+    margin-left: 10px;
 }
 
 div {
