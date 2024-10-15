@@ -76,6 +76,7 @@ a:visited {
     font-size: 2.4em;
     margin: 25px;
     margin-left: 10px;
+    border-width: medium;
 }
 
 .textbox {
@@ -87,10 +88,14 @@ a:visited {
     font-size: 2.4em;
     margin: 25px;
     margin-left: 10px;
+    border-width: medium;
 }
 
 header {
     position: sticky;
     top: 0;
     z-index: 999;
+    box-shadow: 0 10px 12px -12px aliceblue;
+    border-bottom-style: solid;
+    border-bottom-width: thick;
 }   
