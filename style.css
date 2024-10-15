@@ -98,4 +98,5 @@ header {
     box-shadow: 0 10px 12px -12px aliceblue;
     border-bottom-style: solid;
     border-bottom-width: thick;
+    padding-top: 10px;
 }   
