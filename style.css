@@ -83,8 +83,8 @@ a:visited {
     margin-left: 10px;
 }
 
-.allButton {
-    position: absolute;
-    width: auto;
-    display: contents;
-}
+header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}   
