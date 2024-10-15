@@ -3,6 +3,16 @@
         background-color: aliceblue;
         color: #282828;
     }
+    .linkbox {
+        color: rgb(218, 218, 219);
+    }
+    a:link {
+        color: rgb(218, 218, 219);
+    }
+    a:hover {
+        color: aliceblue;
+      }
+
 }
 
 @media (prefers-color-scheme: dark) {
@@ -10,6 +20,15 @@
         background-color: #282828;
         color: aliceblue;
     }
+    .linkbox {
+        color:#282828;
+    }
+    a:link {
+        color:#282828;
+    }
+    a:hover {
+        color: grey;
+      }
 }
 
 body {
@@ -28,7 +47,6 @@ h1 {
 }
 
 a:link {
-    color: rgb(218, 218, 219);
     cursor: pointer;
     text-decoration: none;
 }
@@ -37,14 +55,9 @@ a:visited {
     color: rgb(139, 139, 140)
 }
 
-a:hover {
-    color: aliceblue;
-  }
-
 .linkbox {
     border-style: solid;
     border-radius: 16px;
-    color: rgb(218, 218, 219);
     width:fit-content;
     padding: 5pt;
     padding-left: 10pt;
@@ -53,3 +66,4 @@ a:hover {
     margin: 25px;
     margin-left: 10px;
 }
+
