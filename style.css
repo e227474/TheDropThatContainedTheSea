@@ -6,6 +6,9 @@
     .linkbox {
         color:#282828;
     }
+    .textbox {
+        color:#282828;
+    }
     a:link {
         color:#282828;
     }
@@ -20,6 +23,9 @@
         color: aliceblue;
     }
     .linkbox {
+        color: rgb(218, 218, 219);
+    }
+    .textbox {
         color: rgb(218, 218, 219);
     }
     a:link {
