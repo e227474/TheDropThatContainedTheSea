@@ -73,7 +73,7 @@ a:visited {
 }
 
 .textbox {
-    border-radius: solid;
+    border-style: solid;
     border-radius: 24px;
     padding: 5pt;
     padding-left: 10pt;
