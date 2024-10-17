@@ -173,7 +173,6 @@ button {
 .line1 {
     width: 60px;
     height: 8px;
-    background-color: aliceblue;
     margin: 5px 0;
     border-radius: 25px;
     transition: 1s;
@@ -182,7 +181,6 @@ button {
 .line2 {
     width: 40px;
     height: 8px;
-    background-color: aliceblue;
     margin: 5px 0;
     border-radius: 25px;
     transition: 1s;
@@ -191,7 +189,6 @@ button {
 .line3 {
     width: 50px;
     height: 8px;
-    background-color: aliceblue;
     margin: 5px 0;
     border-radius: 25px;
     transition: 1s;
