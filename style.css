@@ -142,17 +142,17 @@ header {
 }
 
 .dropdown-content {
-    /* display: none; */
+    display: none;
+    /* Initially hide the dropdown */
     margin-top: 10px;
-
-    transition: max-height 0.5s ease-in-out;
-    overflow: hidden;
+    /* Space between button and dropdown */
 }
-/*
+
 .dropdown-content a {
     display: block;
+    /* Make each link a block element */
 }
-*/
+
 button {
 
     border-style: solid;
