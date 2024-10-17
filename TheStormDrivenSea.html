@@ -10,7 +10,7 @@
 <body>
     <header>
         <button id="dropdownButton">
-            <a href="#" class="navlines">
+            <a class="navlines">
                     <div class="line1"></div>
                     <div class="line2"></div>
                     <div class="line3"></div>
@@ -92,8 +92,16 @@
             var dropdownContent = document.getElementById("dropdownContent");
             if (dropdownContent.style.display === "block") {
                 dropdownContent.style.display = "none"; // Hide the dropdown
+                // Reset widths
+                line1.style.width = '60px';
+                line2.style.width = '40px';
+                line3.style.width = '50px';
             } else {
                 dropdownContent.style.display = "block"; // Show the dropdown
+                // Change widths
+                line1.style.width = '60px';
+                line2.style.width = '60px';
+                line3.style.width = '60px';
             }
         });
     </script>
