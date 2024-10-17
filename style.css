@@ -100,3 +100,12 @@ header {
     border-bottom-width: thick;
     padding-top: 10px;
 }   
+
+.dropdown-content {
+    display: none; /* Initially hide the dropdown */
+    margin-top: 10px; /* Space between button and dropdown */
+}
+
+.dropdown-content a {
+    display: block; /* Make each link a block element */
+}
