@@ -131,6 +131,7 @@ button {
     margin-left: 10px;
     border-width: medium;
     background-color: transparent;
+    border-color: transparent;
 }
 
 .navlines div {
@@ -142,6 +143,7 @@ button {
 .navlines {
     display: block;
     width: 60px;
+    margin: 1em 0 0 1em;
 }
 
 .line1 {
