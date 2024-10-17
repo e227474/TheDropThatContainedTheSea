@@ -10,11 +10,9 @@
 <body>
     <header>
         <button id="dropdownButton">
-            <a class="navlines">
-                    <div class="line1"></div>
-                    <div class="line2"></div>
-                    <div class="line3"></div>
-                </a>
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
         </button>
         <div id="dropdownContent" class="dropdown-content">
             <a href="https://e227474.github.io/TheDropThatContainedTheSea/TheDrinkFromGod.html">
@@ -90,6 +88,10 @@
     <script>
         document.getElementById("dropdownButton").addEventListener("click", function () {
             var dropdownContent = document.getElementById("dropdownContent");
+            var line1 = document.querySelector('.line1');
+            var line2 = document.querySelector('.line2');
+            var line3 = document.querySelector('.line3');
+
             if (dropdownContent.style.display === "block") {
                 dropdownContent.style.display = "none"; // Hide the dropdown
                 // Reset widths
