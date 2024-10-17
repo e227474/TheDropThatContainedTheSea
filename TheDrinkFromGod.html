@@ -49,21 +49,21 @@
                 var line1 = document.querySelector('.line1');
                 var line2 = document.querySelector('.line2');
                 var line3 = document.querySelector('.line3');
-    
-                if (dropdownContent.style.display === "block") {
-                    dropdownContent.style.display = "none"; // Hide the dropdown
+            
+                if (dropdownContent.style.maxHeight === "") { // Check if maxHeight is already set to fit the content
+                    dropdownContent.style.maxHeight = "0"; // Collapse the dropdown
                     // Reset widths
                     line1.style.width = '60px';
                     line2.style.width = '40px';
                     line3.style.width = '50px';
                 } else {
-                    dropdownContent.style.display = "block"; // Show the dropdown
+                    dropdownContent.style.maxHeight = ""; // Expand the dropdown to fit the content
                     // Change widths
                     line1.style.width = '60px';
                     line2.style.width = '60px';
                     line3.style.width = '60px';
                 }
-            });
+            });     
         </script>
     </body>
 </html>
