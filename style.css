@@ -132,3 +132,32 @@ button {
     border-width: medium;
     background-color: transparent;
 }
+
+.navlines div {
+    height: 8px;
+    background-color: aliceblue;
+    margin: 5px 0;
+    border-radius: 25px;
+    transition: 1s;
+}
+.navlines {
+    display: block;
+    width: 60px;
+    margin: 1em 0 0 1em;
+}
+
+.line1 {
+    width: 60px;
+}
+
+.line2 {
+    width: 40px;
+}
+
+.line3 {
+    width: 50px;
+}
+
+.navlines:hover div {    
+    width: 60px;
+}

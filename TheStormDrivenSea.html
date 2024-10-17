@@ -9,7 +9,14 @@
 
 <body>
     <header>
-        <button id="dropdownButton">Alle Arikel</button>
+        <button id="dropdownButton">
+            <li><a href="#" class="navlines">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </a>
+            </li>
+        </button>
         <div id="dropdownContent" class="dropdown-content">
             <a href="https://e227474.github.io/TheDropThatContainedTheSea/TheDrinkFromGod.html">
                 <div class="linkbox">Haktan Gelen Serbeti - The Drink from God</div>
@@ -34,7 +41,7 @@
             </a>
             <a href="https://e227474.github.io/TheDropThatContainedTheSea/TheStormDrivenSea.html">
                 <div class="linkbox">Haf Gengr Hriđum - Das Stürmende Meer</div>
-            </a> 
+            </a>
             <a href="https://e227474.github.io/TheDropThatContainedTheSea/WeOverComeTheWind.html">
                 <div class="linkbox">Waloyo Yamoni - We Overcome the Wind</div>
             </a>
@@ -82,7 +89,7 @@
     </div>
 
     <script>
-        document.getElementById("dropdownButton").addEventListener("click", function() {
+        document.getElementById("dropdownButton").addEventListener("click", function () {
             var dropdownContent = document.getElementById("dropdownContent");
             if (dropdownContent.style.display === "block") {
                 dropdownContent.style.display = "none"; // Hide the dropdown
@@ -94,4 +101,3 @@
 </body>
 
 </html>
-
