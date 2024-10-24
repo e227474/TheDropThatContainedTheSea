@@ -1,69 +1,135 @@
 <!DOCTYPE html>
 <html lang="de" dir="auto">
-    <head>
-        <meta charset="utf-8">
-        <title>Passou o Verao - Summer Has Gone</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <header>
-            <button id="dropdownButton">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-            </button>
-            <div id="dropdownContent" class="dropdown-content">
-                <a href="https://e227474.github.io/TheDropThatContainedTheSea/TheDrinkFromGod.html">
-                    <div class="linkbox">Haktan Gelen Serbeti - The Drink from God</div>
-                </a>
-                <a href="https://e227474.github.io/TheDropThatContainedTheSea/DarkClouds.html">
-                    <div class="linkbox">Temen Oblak - Dark Clouds</div>
-                </a>
-                <a href="https://e227474.github.io/TheDropThatContainedTheSea/WaterPrelude.html">
-                    <div class="linkbox">Iza Ngomoso</div>
-                </a>
-                <a href="https://e227474.github.io/TheDropThatContainedTheSea/TheHeartOfSnow.html">
-                    <div class="linkbox">Tsad Narand Uyarna - The Heart of Snow</div>
-                </a>
-                <a href="https://e227474.github.io/TheDropThatContainedTheSea/SummerHasGone.html">
-                    <div class="linkbox">Passou o Verao - Summer Has Gone</div>
-                </a>
-                <a href="https://e227474.github.io/TheDropThatContainedTheSea/GoddessRiver.html">
-                    <div class="linkbox">Devipravaha - Goddess River</div>
-                </a>
-                <a href="https://e227474.github.io/TheDropThatContainedTheSea/Sirens.html">
-                    <div class="linkbox">Seirenes - Sirens</div>
-                </a>
-                <a href="https://e227474.github.io/TheDropThatContainedTheSea/TheStormDrivenSea.html">
-                    <div class="linkbox">Haf Gengr Hriđum - Das Stürmende Meer</div>
-                </a>
-                <a href="https://e227474.github.io/TheDropThatContainedTheSea/WeOverComeTheWind.html">
-                    <div class="linkbox">Waloyo Yamoni - We Overcome the Wind</div>
-                </a>
-            </div>
-        </header>
-        <h1>Passou o Verao</h1>
-        <script>
-            document.getElementById("dropdownButton").addEventListener("click", function () {
-                var dropdownContent = document.getElementById("dropdownContent");
-                var line1 = document.querySelector('.line1');
-                var line2 = document.querySelector('.line2');
-                var line3 = document.querySelector('.line3');
-    
-                if (dropdownContent.style.display === "block") {
-                    dropdownContent.style.display = "none"; // Hide the dropdown
-                    // Reset widths
-                    line1.style.width = '60px';
-                    line2.style.width = '40px';
-                    line3.style.width = '50px';
-                } else {
-                    dropdownContent.style.display = "block"; // Show the dropdown
-                    // Change widths
-                    line1.style.width = '60px';
-                    line2.style.width = '60px';
-                    line3.style.width = '60px';
-                }
-            });
-        </script>
-    </body>
+
+<head>
+    <meta charset="utf-8">
+    <title>Passou o Verao - Summer Has Gone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <button id="dropdownButton">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </button>
+        <div id="dropdownContent" class="dropdown-content">
+            <a href="https://e227474.github.io/TheDropThatContainedTheSea/TheDrinkFromGod.html">
+                <div class="linkbox">Haktan Gelen Serbeti - The Drink from God</div>
+            </a>
+            <a href="https://e227474.github.io/TheDropThatContainedTheSea/DarkClouds.html">
+                <div class="linkbox">Temen Oblak - Dark Clouds</div>
+            </a>
+            <a href="https://e227474.github.io/TheDropThatContainedTheSea/WaterPrelude.html">
+                <div class="linkbox">Iza Ngomoso</div>
+            </a>
+            <a href="https://e227474.github.io/TheDropThatContainedTheSea/TheHeartOfSnow.html">
+                <div class="linkbox">Tsad Narand Uyarna - The Heart of Snow</div>
+            </a>
+            <a href="https://e227474.github.io/TheDropThatContainedTheSea/SummerHasGone.html">
+                <div class="linkbox">Passou o Verao - Summer Has Gone</div>
+            </a>
+            <a href="https://e227474.github.io/TheDropThatContainedTheSea/GoddessRiver.html">
+                <div class="linkbox">Devipravaha - Goddess River</div>
+            </a>
+            <a href="https://e227474.github.io/TheDropThatContainedTheSea/Sirens.html">
+                <div class="linkbox">Seirenes - Sirens</div>
+            </a>
+            <a href="https://e227474.github.io/TheDropThatContainedTheSea/TheStormDrivenSea.html">
+                <div class="linkbox">Haf Gengr Hriđum - Das Stürmende Meer</div>
+            </a>
+            <a href="https://e227474.github.io/TheDropThatContainedTheSea/WeOverComeTheWind.html">
+                <div class="linkbox">Waloyo Yamoni - We Overcome the Wind</div>
+            </a>
+        </div>
+    </header>
+    <h1>Passou o Verao</h1>
+    <h2>Fado: Der Musikstyl von Passou o Verão</h2>
+    <div class="textbox">
+        Fado ist ein portugiesischer Musikstil. Besonders in Lissabon ist er stark verbreitet. Das Wort Fado bedeutet
+        übersetzt Schicksal und kommt aus dem Lateinischen. Er definiert sich vor allem durch den Ausdruck von Gefühlen.
+        So ist er oft traurig und handelt sich um das Ende der Liebe, Verrat oder Eifersucht. Er kann aber auch belebend
+        wirken und so ziehen viele durch die Gassen von Lissabon Fado trällernd. Den Ursprung hat Fado ebenso in diesen
+        Armenvierteln Lissabons. Genau weiss man nicht, wie er entstanden ist, aber es wird vermutet, dass er sich aus
+        den Gesängen portugiesischer Seeleute entwickelte oder eine Ableitung von brasilianischen Musikstilen ist.
+        Heutzutage gilt er als UNESCO-Kulturerbe und wird öfter auch als Inspiration für neue Musik genutzt, so zum
+        Beispiel Força, was 2004 am Endspiel der Fussballeuropameisterschaft vorgetragen wurde.
+    </div>
+    <h2>Luis de Camoes: Der Dichter des Stücks</h2>
+    <div class="textbox">
+        Luís de Camões ist eine zentrale Figur der portugiesischen Literatur und seine Werke hatten grossen Einfluss auf
+        Portugiesische die Kultur, indem er die portugiesische Literatur auf ein höheres Level brachte. Sein Gedicht,
+        Passou o verão ist ein wunderbares Beispiel, für seine Fähigkeiten tiefe Emotionen und philosophische
+        Gedankengänge in eine lyrische Form zu vermischen. Der Todestag von de Camões ist der 10. Juni, welcher auch als
+        Nationalfeiertag celebriert wird. De Camões lebte zwischen 1524 und 1580 in seinem Geburtsort Lissabon. Über ihn
+        gibt es wenig Bekanntes, aber man vermutet, dass er in einer verarmten Adelsfamilie aufwuchs. Seine Dichtung
+        wurde stark durch sein turbulentes und abenteuerliches Leben beeinflusst. Er reiste sehr viel und war ebenfalls
+        Soldat. Als Soldat kämpfte er 1549 in Ceuta und verlor auch in einer Schlacht gegen die Mauren (Nomaden in
+        Nordafrika) sein rechtes Auge. 1553 reiste er nach Goa und wurde dort gleich nach seiner Ankunft verhaftet, da
+        er viele Schulden hatte. Dennoch führte sein Weg um 1570 wieder zurück nach Lissabon und dort widmete er sich
+        voll und ganz der Dichtung. Sein Werk, welches ihn bekannt machte, ist ein episches Stück namens Os Lusiadas. Es
+        beschreibt die Entdeckungsfahrten Vasco da Gamas nach Indien. Seine Gedichte und Sonetten sind von einer tiefen
+        Melancholie und Reflexionen über die Vergänglichkeit und die unerfüllte Liebe gepärgt.
+    </div>
+    <h2>Portugal während der Entstehung Passou o Verão</h2>
+    <div class="textbox">
+        Das 16. Jahrhundert war eine Blütezeit für Portugal. Die Zeit war geprägt von Expansion und Entdeckungen. Das
+        Land expandierte stark und hatte unzählige Kolonien. Die Expansion brachte auch kulturelle und religiöse
+        Einflüsse nach Portugal. Missionare verbreiteten das Christentum in den neuen Kolonien, was zu einer kulturellen
+        Vermischung führte. Gleichzeitig brachte der Reichtum aus den Kolonien in Portugal selbst eine kulturelle
+        Blütezeit mit sich, in der Kunst, Architektur und Literatur gefördert wurden. Ausserdem erkundeten
+        portugiesische Seeleute die Küsten Afrikas und entdeckten die Azoren.
+    </div>
+    <h2>Passou o Verão: Gefühle, die ausgelöst werden</h2>
+    <div class="textbox">
+        Das Lied beginnt mit verschiedenen Streichinstrumenten, die langsam im Einklang eine ruhige Melodie spielen. Es
+        löst eine gewisse Friedlichkeit in einem aus. Sobald die weibliche Stimme ihren Text anstimmt, geht diese
+        Friedlichkeit ganz schnell weg, denn es wird in einem sehr klagenden, flüsternden Ton gesungen. Man bekommt das
+        Gefühl, es entgleitet etwas aus seinen Händen, wie Sand. Die Frau wird immer lauter und klagender. Plötzlich
+        überkommen einen auch eine Traurigkeit und eine gewisse Wut.
+        Diese Gefühle vergehen, als man wieder nur die Streicher hört.
+        Gegen Ende des Liedes, als die Stimme wieder erklingt, wirkt es hoffnungsvoller und sicherer. Man bekommt dieses
+        Gefühl, dass alles okay sein wird am Ende.
+        Dieses drückende Gefühl, das man während des Liedes verspürt, bezeugt, dass das Klagelied voll und ganz seinem
+        Namen gerecht wird. Dennoch verspürt man eine gewisse Ruhe und einen Frieden beim Hören.
+    </div>
+    <h2>Interpretation</h2>
+    <div class="textbox">
+        Der Titel heisst übersetzt: Der Sommer ist vorbei. Der Sommer steht oft für eine Jahreszeit des Glücks und der
+        Lebendigkeit. Das Ende des Sommers ist somit das Vergehen dieser schönen Zeit und der Verlust dieser Werte. So
+        gibt das Lied einen traurigen und nostalgischen Eindruck ab.
+        Das Lied ist im traditionellen Fado geschrieben und dieser wird oft melancholisch übertragen. Von ruhigen und
+        nachdenklichen bis hin zu kraftvollen, schnellen und energiereichen Momenten ist alles vorhanden und soll
+        vermutlich einen Kontrast zwischen schönen Erinnerungen und der traurigen Realität ausdrücken.hat Kontextmenü.
+        In Christopher Tins Stück „The drop that contained the sea“, geht es primär um Wasser und jedes der 10 Lieder in
+        diesem Stück hat einen Bezug zum Wasser. In Passou o Verão wird das Wasser aber nicht schön oder rein
+        dargestellt, sondern es wird über das im Winter kommende, trübe und dreckige Wasser gesprochen. In Passou o
+        Verao wird davon gesprochen, wie Gott im Winter die Natur vergessen und alles zurücklassen für einen Moment. Ob
+        dies eine Bestrafung ist oder einfach unabsichtlich, sei dem Hörer überlassen.
+    </div>
+    <script>
+        document.getElementById("dropdownButton").addEventListener("click", function () {
+            var dropdownContent = document.getElementById("dropdownContent");
+            var line1 = document.querySelector('.line1');
+            var line2 = document.querySelector('.line2');
+            var line3 = document.querySelector('.line3');
+
+            if (dropdownContent.style.display === "block") {
+                dropdownContent.style.display = "none"; // Hide the dropdown
+                // Reset widths
+                line1.style.width = '60px';
+                line2.style.width = '40px';
+                line3.style.width = '50px';
+            } else {
+                dropdownContent.style.display = "block"; // Show the dropdown
+                // Change widths
+                line1.style.width = '60px';
+                line2.style.width = '60px';
+                line3.style.width = '60px';
+            }
+        });
+    </script>
+</body>
+
 </html>
