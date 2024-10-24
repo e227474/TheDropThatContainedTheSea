@@ -38,6 +38,9 @@
     .line3 {
         background-color: #282828;
     }
+    table, th, td {
+        border: 1px #282828;
+    }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -79,6 +82,9 @@
     }
     .line3{
         background-color: aliceblue;
+    }
+    table, th, td {
+        border: 1px aliceblue;
     }
 }
 
@@ -201,3 +207,4 @@ button {
     border-radius: 25px;
     transition: 500ms;
 }
+

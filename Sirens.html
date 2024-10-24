@@ -1,93 +1,222 @@
 <!DOCTYPE html>
 <html lang="de" dir="auto">
-    <head>
-        <meta charset="utf-8">
-        <title>Seirenes - Sirens</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <header>
-            <button id="dropdownButton">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-            </button>
-            <div id="dropdownContent" class="dropdown-content">
-                <a href="https://e227474.github.io/TheDropThatContainedTheSea/TheDrinkFromGod.html">
-                    <div class="linkbox">Haktan Gelen Serbeti - The Drink from God</div>
-                </a>
-                <a href="https://e227474.github.io/TheDropThatContainedTheSea/DarkClouds.html">
-                    <div class="linkbox">Temen Oblak - Dark Clouds</div>
-                </a>
-                <a href="https://e227474.github.io/TheDropThatContainedTheSea/WaterPrelude.html">
-                    <div class="linkbox">Iza Ngomoso</div>
-                </a>
-                <a href="https://e227474.github.io/TheDropThatContainedTheSea/TheHeartOfSnow.html">
-                    <div class="linkbox">Tsad Narand Uyarna - The Heart of Snow</div>
-                </a>
-                <a href="https://e227474.github.io/TheDropThatContainedTheSea/SummerHasGone.html">
-                    <div class="linkbox">Passou o Verao - Summer Has Gone</div>
-                </a>
-                <a href="https://e227474.github.io/TheDropThatContainedTheSea/GoddessRiver.html">
-                    <div class="linkbox">Devipravaha - Goddess River</div>
-                </a>
-                <a href="https://e227474.github.io/TheDropThatContainedTheSea/Sirens.html">
-                    <div class="linkbox">Seirenes - Sirens</div>
-                </a>
-                <a href="https://e227474.github.io/TheDropThatContainedTheSea/TheStormDrivenSea.html">
-                    <div class="linkbox">Haf Gengr Hriđum - Das Stürmende Meer</div>
-                </a>
-                <a href="https://e227474.github.io/TheDropThatContainedTheSea/WeOverComeTheWind.html">
-                    <div class="linkbox">Waloyo Yamoni - We Overcome the Wind</div>
-                </a>
-            </div>
-        </header>
-        <h1>Seirenes</h1>
-        <table>
-            <tr>
-                <td>Komponist</td>
-                <td>Christopher Tin</td>
-            </tr>
-            <tr>
-                <td>Teil des Werks</td>
-                <td>The Drop That Contained The Sea</td>
-            </tr>
-            <tr>
-                <td>Erstaufführung</td>
-                <td>19. Januar 2014 in Bangor</td>
-            </tr>
-            <tr>
-                <td>Interpreten bei der Erstaufführung</td>
-                <td>Bangor Symphony Orchester a cappella Quartett Anonymus4</td>
-            </tr>
-            <tr>
-                <td>Sprache</td>
-                <td>Altgriechisch</td>
-            </tr>
-            <td>Dauer</td>
-            <td>8:47</td>
-        </table>
-        <script>
-            document.getElementById("dropdownButton").addEventListener("click", function () {
-                var dropdownContent = document.getElementById("dropdownContent");
-                var line1 = document.querySelector('.line1');
-                var line2 = document.querySelector('.line2');
-                var line3 = document.querySelector('.line3');
-    
-                if (dropdownContent.style.display === "block") {
-                    dropdownContent.style.display = "none"; // Hide the dropdown
-                    // Reset widths
-                    line1.style.width = '60px';
-                    line2.style.width = '40px';
-                    line3.style.width = '50px';
-                } else {
-                    dropdownContent.style.display = "block"; // Show the dropdown
-                    // Change widths
-                    line1.style.width = '60px';
-                    line2.style.width = '60px';
-                    line3.style.width = '60px';
-                }
-            });
-        </script>
-    </body>
+
+<head>
+    <meta charset="utf-8">
+    <title>Seirenes - Sirens</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <button id="dropdownButton">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </button>
+        <div id="dropdownContent" class="dropdown-content">
+            <a href="https://e227474.github.io/TheDropThatContainedTheSea/TheDrinkFromGod.html">
+                <div class="linkbox">Haktan Gelen Serbeti - The Drink from God</div>
+            </a>
+            <a href="https://e227474.github.io/TheDropThatContainedTheSea/DarkClouds.html">
+                <div class="linkbox">Temen Oblak - Dark Clouds</div>
+            </a>
+            <a href="https://e227474.github.io/TheDropThatContainedTheSea/WaterPrelude.html">
+                <div class="linkbox">Iza Ngomoso</div>
+            </a>
+            <a href="https://e227474.github.io/TheDropThatContainedTheSea/TheHeartOfSnow.html">
+                <div class="linkbox">Tsad Narand Uyarna - The Heart of Snow</div>
+            </a>
+            <a href="https://e227474.github.io/TheDropThatContainedTheSea/SummerHasGone.html">
+                <div class="linkbox">Passou o Verao - Summer Has Gone</div>
+            </a>
+            <a href="https://e227474.github.io/TheDropThatContainedTheSea/GoddessRiver.html">
+                <div class="linkbox">Devipravaha - Goddess River</div>
+            </a>
+            <a href="https://e227474.github.io/TheDropThatContainedTheSea/Sirens.html">
+                <div class="linkbox">Seirenes - Sirens</div>
+            </a>
+            <a href="https://e227474.github.io/TheDropThatContainedTheSea/TheStormDrivenSea.html">
+                <div class="linkbox">Haf Gengr Hriđum - Das Stürmende Meer</div>
+            </a>
+            <a href="https://e227474.github.io/TheDropThatContainedTheSea/WeOverComeTheWind.html">
+                <div class="linkbox">Waloyo Yamoni - We Overcome the Wind</div>
+            </a>
+        </div>
+    </header>
+    <h1>Seirenes</h1>
+    <table class="textbox">
+        <tr>
+            <td>Komponist</td>
+            <td>Christopher Tin</td>
+        </tr>
+        <tr>
+            <td>Teil des Werks</td>
+            <td>The Drop That Contained The Sea</td>
+        </tr>
+        <tr>
+            <td>Erstaufführung</td>
+            <td>19. Januar 2014 in Bangor</td>
+        </tr>
+        <tr>
+            <td>Interpreten bei der Erstaufführung</td>
+            <td>Bangor Symphony Orchester a cappella Quartett Anonymus4</td>
+        </tr>
+        <tr>
+            <td>Sprache</td>
+            <td>Altgriechisch</td>
+        </tr>
+        <td>Dauer</td>
+        <td>8:47</td>
+    </table>
+    <h2>Die Geschichte vom Helden Odysseus</h2>
+    <div class="textbox">
+        Die “Odyssee” wurde von Homer, der im 6./7. Jh. v. Chr. gelebt haben soll, geschrieben. Es ist eines der
+        ältesten, wichtigsten und größten Erzählungen der Weltliteratur (Ob es Homer wirklich gab, ist wissenschaftlich
+        nicht vollständig belegt) Die Odyssee handelt von der Rückkehr des griechischen Helden “Odysseus” aus dem
+        trojanischen Krieg in seine Heimatstadt Ithaka.
+    </div>
+    <div class="textbox">
+        Die Odyssee von Homer ist in 24 Gesänge unterteilt, die sich grob in drei Hauptteile gliedern lassen: die
+        Telemachie (Gesänge 1-4), die Irrfahrten des Odysseus (Gesänge 5-12) und die Rückkehr und Rache des Odysseus
+        (Gesänge 13 bis 24). In jedem Teil geht es um einen anderen Abschnitt von Odysseus’ Abenteuern. Sie werden durch
+        eine Vielzahl von Göttern, Mythen und Themen der menschlichen Existenz geprägt.
+    </div>
+    <div class="textbox">
+        Der für das Lied relevante Teil findet sich im 12. Gesang der Teil der Irrfahrt ist. Hier ist ein kurzer
+        Überblick über die Irrfahrt:
+    </div>
+    <div class="textbox">
+        Nach der zehnjährigen Belagerung der Stadt Troja machte sich Odysseus mit seinen Gefährten auf den Heimweg nach
+        Ithaka. Diese Reise war jedoch alles andere als einfach. Zuerst landeten sie an der Küste der Kikonen, einem
+        kriegerischen Volk, und dann im Land der Lotophagen, wo die Bewohner eine betäubende Pflanze aßen.
+    </div>
+    <div class="textbox">
+        Danach erreichten sie die Insel der Kyklopen, den riesigen einäugigen Gestalten, wo sie auf Polyphem trafen, der
+        einige von ihnen fraß. Odysseus konnte ihn durch einen cleveren Plan blenden und von der Insel fliehen. Weitere
+        Stationen waren die Insel von Aiolos, dem Hüter der Winde, und die Küste der Lästrygonen, einem Volk von
+        Menschenfressern.
+    </div>
+    <div class="textbox">
+        Auf der Insel Aiaia trafen sie die Zauberin Kirke, die sie in die Unterwelt führte. Kirke gab ihnen Ratschläge
+        für die Weiterfahrt und warnte sie vor den Sirenen, deren Gesang Seefahrer ins Verderben lockte. Odysseus befahl
+        seinen Gefährten, sich die Ohren mit Wachs zu verschließen und ließ sich selbst an den Mast binden, um dem
+        Gesang zu widerstehen. Sirenen sind eine Mischung zwischen einem weiblichen Menschenkörper, teils bärtig, und
+        einem Vogel mit seinen Flügeln.
+    </div>
+    <div class="textbox">
+        In einer Meerenge wurden sie von den Seeungeheuern Skylla und Charybdis bedroht und verloren sechs Männer. Mit
+        einem beschädigten Schiff erreichte Odysseus die Insel der Meeresnymphe Kalypso, die ihn sieben Jahre lang
+        festhielt. Schließlich gelangte Odysseus schwimmend zur Insel der Phaiaken und kehrte schließlich nach Ithaka
+        zurück, wo er seine Herrschaft wieder aufnahm.
+    </div>
+    <h2>Eine Erfolg bringende Idee</h2>
+    <div class="textbox">
+        Vorgehend zur Irrfahrt steht wie erwähnt der trojanische Krieg. Dieser wurde durch die Entführung von Helena,
+        einer Figur der griechischen Mythologie, durch den Sohn des trojanischen Königs, Paris, ausgelöst. Trotz
+        zehnjähriger Belagerung gelang es den Griechen nicht die Stadt erfolgreich zu erobern. Auf den Rat Odysseus’ hin
+        bauten die Griechen ein grosses Pferd aus Holz, in diesem versteckten sich dann die besten Krieger. Daraufhin
+        täuschte man den Rückzug vor. Die Trojaner holten das hölzerne Pferd dann in die Stadt. In der Nacht kletterten
+        die Griechen dann aus dem Pferd und überwältigten Troja. Aus dieser Begebenheit entstand dann auch der Begriff
+        “trojanisches Pferd”
+    </div>
+    <table class="textbox">
+        <tr>
+            <th>Altgriechische aus der Odyssee</th>
+            <td>δεῦρ' ἄγ' ἰών, πολύαιν' Ὀδυσεῦ, μέγα
+
+                κῦδος Ἀχαιῶν
+
+                νῆα κατάστησον, ἵνα νωϊτέρην ὄπ'
+
+                ἀκούσῃς
+
+                οὐ γάρ πώ τις τῇδε παρήλασε νηῒ μελαίνῃ
+
+                πρίν γ' ἡμέων μελίγηρυν ἀπὸ στομάτων
+
+                ὄπ' ἀκοῦσαι
+
+                ἀλλ' ὅ γε τερψάμενος νεῖται καὶ πλείονα
+
+                εἰδώς
+
+                ἴδμεν γάρ τοι πάνθ' ὅσ' ἐνὶ Τροίῃ εὐρείῃ
+
+                Ἀργεῖοι Τρῶές τε θεῶν ἰότητι μόγησαν
+
+                ἴδμεν δ' ὅσσα γένηται ἐπὶ χθονὶ
+
+                πουλυβοτείρῃ</td>
+        </tr>
+    </table>
+    <table class="textbox">
+        <tr>
+            <th>Text aus den Noten</th>
+            <td>
+                deur' ag' iôn, poluain' Oduseu, mega kudos Achaiôn, nêa katastêson, hina nôïterên op' akousêis. ou gar
+                pô tis têide parêlase nêï melainêi, prin g'êmeôn meligêrun apo stomatôn op' akousai, all' ho ge
+                terpsamenos neitai kai pleiona eidôs. idmen gar toi panth' os eni Troiêi eureiêi Argeioi Trôes te theôn
+                iotêti mogêsan, idmen d', hossa genêtai epi chthoni pouluboteirêi.
+            </td>
+        </tr>
+    </table>
+    <table class="textbox">
+        <th>Deutsche Übersetzung</th>
+        <td>
+            Hieher, Odysseus, Ruhm aller Welt, du Stolz der Achaier! Treibe dein Schiff ans Land, denn du mußt unsre
+            Stimmen erst hören! Keiner noch fuhr hier vorbei auf dunklen Schiffen, bevor er Stimmen aus unserem Munde
+            vernommen, die süß sind wie Honig. So einer kehrt dann mit tieferem Wissen beglückt in die Heimat. Alles
+            wissen wir dir, was im breiten Troja die Troer, Was die Argeier dort litten nach göttlicher Fügung. Und
+            allzeit Wissen wir, was auf der Erde geschieht, die so vieles hervorbringt. Übersetzung von Anton Weiher
+        </td>
+    </table>
+    <h2>Mehr über die Musik</h2>
+    <div class="textbox">
+        Das ganze Stück ist sehr ruhig und hat einen mystischen, düsteren und melancholischen Charakter. Man kann
+        die angespannte Situation förmlich hören und weiss bis zum Schluss nicht recht, ob es nun zu einem guten
+        oder schlechten Ende kommt.
+    </div>
+    <div class="textbox">
+        Christopher Tin spielt mit einem fast durchgehenden Klangbild mit vollen Terzschichtungen im Gesang. Gegen
+        Ende erzeugt er durch eine aufsteigende Tonleiter im tiefen Register eine Richtung der Musik. Wie auch in
+        anderen Stücken des Werks gibt es eine Harfenstimme, sie ist zwar
+
+        nicht unbedingt deswegen gewählt, aber sie stellt eine parallele zur antiken, griechischen Musik dar. Leider
+        ist die Ausdrucksform der altgriechischen Musik sehr schlecht belegt. Daher kann man auch nicht behaupten,
+        dass die Komposition absichtlich eine grosse Ähnlichkeit zur altgriechischen Musik aufweist, geschweige denn
+        die überhaupt tut.
+    </div>
+    <div class="textbox">
+        Die Interpretation mit vier Sängerinnen in “Sirens” wird gewählt, weil sie das Klangbild von Sirenengesängen
+        sehr exakt trifft. Es ist nicht, wie bei vielen der anderen Sätze, eine stark geschichtete Belegung. Diese
+        kleine Anzahl an Gesangsstimmen sorgt genau für diesen unvollständigen, fragenden und somit mystischen
+        Charakter. Dazu kommen dann noch verschiedene klanghafte Instrumente, teils solistisch, teils füllend. Es
+        entsteht ein in sich perfektes Klangbild und wenn man einmal weiss um was es im Lied überhaupt geht Bilden sich
+        im Kopf dutzende Bilder, man kann sich die Situation gut vorstellen und spürt sie auch.
+    </div>
+    <script>
+        document.getElementById("dropdownButton").addEventListener("click", function () {
+            var dropdownContent = document.getElementById("dropdownContent");
+            var line1 = document.querySelector('.line1');
+            var line2 = document.querySelector('.line2');
+            var line3 = document.querySelector('.line3');
+
+            if (dropdownContent.style.display === "block") {
+                dropdownContent.style.display = "none"; // Hide the dropdown
+                // Reset widths
+                line1.style.width = '60px';
+                line2.style.width = '40px';
+                line3.style.width = '50px';
+            } else {
+                dropdownContent.style.display = "block"; // Show the dropdown
+                // Change widths
+                line1.style.width = '60px';
+                line2.style.width = '60px';
+                line3.style.width = '60px';
+            }
+        });
+    </script>
+</body>
+
 </html>
