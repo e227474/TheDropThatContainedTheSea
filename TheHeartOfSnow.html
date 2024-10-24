@@ -1,69 +1,185 @@
 <!DOCTYPE html>
 <html lang="de" dir="auto">
-    <head>
-        <meta charset="utf-8">
-        <title>Tsas Narand Uyarna - The Heart of Snow</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <header>
-            <button id="dropdownButton">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-            </button>
-            <div id="dropdownContent" class="dropdown-content">
-                <a href="https://e227474.github.io/TheDropThatContainedTheSea/TheDrinkFromGod.html">
-                    <div class="linkbox">Haktan Gelen Serbeti - The Drink from God</div>
-                </a>
-                <a href="https://e227474.github.io/TheDropThatContainedTheSea/DarkClouds.html">
-                    <div class="linkbox">Temen Oblak - Dark Clouds</div>
-                </a>
-                <a href="https://e227474.github.io/TheDropThatContainedTheSea/WaterPrelude.html">
-                    <div class="linkbox">Iza Ngomoso</div>
-                </a>
-                <a href="https://e227474.github.io/TheDropThatContainedTheSea/TheHeartOfSnow.html">
-                    <div class="linkbox">Tsad Narand Uyarna - The Heart of Snow</div>
-                </a>
-                <a href="https://e227474.github.io/TheDropThatContainedTheSea/SummerHasGone.html">
-                    <div class="linkbox">Passou o Verao - Summer Has Gone</div>
-                </a>
-                <a href="https://e227474.github.io/TheDropThatContainedTheSea/GoddessRiver.html">
-                    <div class="linkbox">Devipravaha - Goddess River</div>
-                </a>
-                <a href="https://e227474.github.io/TheDropThatContainedTheSea/Sirens.html">
-                    <div class="linkbox">Seirenes - Sirens</div>
-                </a>
-                <a href="https://e227474.github.io/TheDropThatContainedTheSea/TheStormDrivenSea.html">
-                    <div class="linkbox">Haf Gengr Hriđum - Das Stürmende Meer</div>
-                </a>
-                <a href="https://e227474.github.io/TheDropThatContainedTheSea/WeOverComeTheWind.html">
-                    <div class="linkbox">Waloyo Yamoni - We Overcome the Wind</div>
-                </a>
-            </div>
-        </header>
-        <h1>Tsas Narand Uyarna</h1>
-        <script>
-            document.getElementById("dropdownButton").addEventListener("click", function () {
-                var dropdownContent = document.getElementById("dropdownContent");
-                var line1 = document.querySelector('.line1');
-                var line2 = document.querySelector('.line2');
-                var line3 = document.querySelector('.line3');
-    
-                if (dropdownContent.style.display === "block") {
-                    dropdownContent.style.display = "none"; // Hide the dropdown
-                    // Reset widths
-                    line1.style.width = '60px';
-                    line2.style.width = '40px';
-                    line3.style.width = '50px';
-                } else {
-                    dropdownContent.style.display = "block"; // Show the dropdown
-                    // Change widths
-                    line1.style.width = '60px';
-                    line2.style.width = '60px';
-                    line3.style.width = '60px';
-                }
-            });
-        </script>
-    </body>
+
+<head>
+    <meta charset="utf-8">
+    <title>Tsas Narand Uyarna - The Heart of Snow</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <button id="dropdownButton">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </button>
+        <div id="dropdownContent" class="dropdown-content">
+            <a href="https://e227474.github.io/TheDropThatContainedTheSea/TheDrinkFromGod.html">
+                <div class="linkbox">Haktan Gelen Serbeti - The Drink from God</div>
+            </a>
+            <a href="https://e227474.github.io/TheDropThatContainedTheSea/DarkClouds.html">
+                <div class="linkbox">Temen Oblak - Dark Clouds</div>
+            </a>
+            <a href="https://e227474.github.io/TheDropThatContainedTheSea/WaterPrelude.html">
+                <div class="linkbox">Iza Ngomoso</div>
+            </a>
+            <a href="https://e227474.github.io/TheDropThatContainedTheSea/TheHeartOfSnow.html">
+                <div class="linkbox">Tsad Narand Uyarna - The Heart of Snow</div>
+            </a>
+            <a href="https://e227474.github.io/TheDropThatContainedTheSea/SummerHasGone.html">
+                <div class="linkbox">Passou o Verao - Summer Has Gone</div>
+            </a>
+            <a href="https://e227474.github.io/TheDropThatContainedTheSea/GoddessRiver.html">
+                <div class="linkbox">Devipravaha - Goddess River</div>
+            </a>
+            <a href="https://e227474.github.io/TheDropThatContainedTheSea/Sirens.html">
+                <div class="linkbox">Seirenes - Sirens</div>
+            </a>
+            <a href="https://e227474.github.io/TheDropThatContainedTheSea/TheStormDrivenSea.html">
+                <div class="linkbox">Haf Gengr Hriđum - Das Stürmende Meer</div>
+            </a>
+            <a href="https://e227474.github.io/TheDropThatContainedTheSea/WeOverComeTheWind.html">
+                <div class="linkbox">Waloyo Yamoni - We Overcome the Wind</div>
+            </a>
+        </div>
+    </header>
+    <h1>Tsas Narand Uyarna</h1>
+    <div class="textbox">Vielen Dank, dass Sie sich mehr über dieses Lied informieren möchten. Hier finden Sie
+        Informationen und unsere Interpretationen zum Lied und einige Einblicke in die mongolische Kultur.
+    </div>
+    <h2>Ursprung des Liedes</h2>
+    <div class="textbox">Es ist nicht bekannt aus welcher Zeit die zur Inspiration dienenden Texte stammen. Man weiss
+        nur, dass Christopher Tin alte mongolische Texte verwendet hat.
+        Dem Auftrag nach, den der Komponist erhielt, sollte das Lied auf Tibetisch sein und «Kawa Korwa» -auf Deutsch
+        «Wirbelnder Schnee»- heissen. Allerdings hatte Christopher Tin Probleme, tibetische Texte und Sänger ausfindig
+        zu machen. Schlussendlich hatte er mongolische Texte gefunden, welche den Schnee ebenfalls repräsentieren und
+        zur beauftragten Musik passten. So entstand das Lied «Tsas Narand Uyarna». Direkt übersetzt heisst es «Schnee
+        wird in der Sonne schmelzen», aber die offizielle -nicht ganz richtige- Übersetzung lautet «Das Herz aus
+        Schnee».
+    </div>
+    <h2>Versteckte Bedeutungen im Songtext</h2>
+    <div class="textbox">
+        Als wir den Songtext vom Mongolischen ins Deutsche übersetzen liessen, mussten wir feststellen, dass die
+        offizielle englische Übersetzung einige Unterschiede aufweist. Zum einen wurde die Reihenfolge der Verse
+        geändert und der Text wurde vermutlich so geändert, dass es die Metaphern erklärt, und somit keine wortwörtliche
+        Übersetzung ist. Damit Sie die Metaphern und Bedeutungen dennoch verstehen, werden wir sie hier erklären.
+    </div>
+    <div class="textbox">
+        Es fällt auf, der Text viele Gegensätze aufweist: der friedliche Berg und der Sturm; der kalte Schnee und der
+        heisse Tee; der Schnee und die Sonne in Harmonie und der Schnee, der in der Sonne schmilzt; der kalte
+        Schneesturm und der fröhliche mongolische Charakter. Diese Gegensätze können nur zusammen existieren, sie
+        ergänzen sich – ohne etwas Gutes kann es kein Schlechtes geben.
+    </div>
+    <div class="textbox">
+        «Tsas Narand Uyarna» - «Schnee wird in der Sonne schmelzen»:
+        Die offizielle Übersetzung lautet «Das Herz aus Schnee». Das warme, mit Liebe gefüllte Herz wird mit der Sonne
+        und dessen Wärme verglichen, während der kalte Schnee für den harten Winter steht.
+    </div>
+    <div class="textbox">
+        «In diesem Samsara, wo Schnee und Sonne in Harmonie existieren»:
+        Im buddhistischem Glauben ist Samsara der Kreislauf von Existenz, Tod und Wiedergeburt. Allerding kann man
+        Samsara als stärkeres Wort für das Universum oder der Welt verwenden.
+        Weiter kommen noch der Schnee und die Sonne vor. Der Schnee steht für das Kalte und Böse in dieser Welt, während
+        die Sonne für das Warme und Gute steht. Diese beiden gegensätzlichen Mächte halten die Welt im Gleichgewicht.
+        Gleichzeitig bedeutet es, dass die Mongolen, deren Wärme mit der Sonne verglichen werden kann, mit dem harten
+        Winter zurechtkommen und sich nicht unterkriegen lassen.
+    </div>
+    <h2>Karawanen und Nomaden</h2>
+    <div class="textbox">
+        Zu Beginn des Stücks werden Glockenklänge imitiert. Diese deuten an, dass sich eine Karawane in der Nähe
+        befindet. In einer Karawane wird am hintersten Tier eine Glocke befestigt, damit alle beisammenbleiben und
+        niemand verloren geht.
+        Bis heute gibt es nomadische Familien, welche etwa 25 Prozent der mongolischen Bevölkerung ausmachen, was im
+        Vergleich zu Früher wenig ist, als fast alle Mongolen als Nomaden lebten. Die Familien ziehen mit ihren Tieren
+        -meist Kamele oder Pferde- in einer Karawane umher, um sich für kurze Zeit an einem guten Platz niederzulassen.
+    </div>
+    <h2>Herzlicher Charakter</h2>
+    <div class="textbox">
+        Die Mongolei besteht grösstenteils aus einer weiten und praktisch menschenleeren Steppe. Die nomadischen
+        Familien, welche selten anderen Menschen begegnen, freuen sich, wenn sie Reisende entdecken, welche man aufgrund
+        der Steppe bereits von weitem sehen kann. Sie bereiten Tee vor und packen Lebensmittel ein, mit denen sie den
+        Reisenden entgegenreiten. Oft werden die Reisenden zu einer Pause nach Hause eingeladen, da sie von der langen
+        Reise erschöpft sind.
+    </div>
+    <h2>Bedeutung der Farbe Weiss</h2>
+    <div class="textbox">
+        Alles, was weiss ist, wird in der Mongolei respektiert, denn die Farbe Weiss symbolisiert Reinheit, Glück und
+        das übernatürliche Wesen. Zum Beispiel macht man Tee mit Milch anstatt mit Wasser, da der Tee mit Wasser schwarz
+        wirkt. Es gibt eine mongolische Redensart, die besagt: «Man soll dem Gast kein schwarzes Wasser geben», da
+        schwarz für das Böse steht.
+    </div>
+    <h2>Schneestürme</h2>
+    <div class="textbox">
+        Aufgrund der flachen Steppe wird der Wind kaum von irgendwelchen Hindernissen aufgehalten. Somit können starke
+        Stürme entstehen. Deswegen könnte man sie auch als «Eroberer» oder «Herr der Zeit» bezeichnen.
+    </div>
+    <h2>Wasser</h2>
+    <div class="textbox">
+        In der Mongolei hat man kein fliessendes Wasser, deshalb muss man es aus einem Brunnen, der oft weit entfernt
+        ist,
+        holen. Wenn es allerdings frischen Schnee hat, dann kann man diesen direkt von vor der Haustür nehmen und
+        einschmelzen.
+    </div>
+    <h2>Nachthimmel</h2>
+    <div class="textbox">
+        Der Nachthimmel über der Mongolei ist sehr beliebt und weltweit bekannt. Da keine Lichtverschmutzung vorliegt
+        kann man unzählige Sterne am Himmel sehen. Es sind so viele, dass man das Gefühl hat, man von ihnen zugedeckt
+        werden. Wenn man sich in der mongolischen Steppe befindet, scheint es fast so, als würden am Horizont der Himmel
+        und der Boden verschmelzen.
+        Allgemein wird in der Mongolei anstelle eines Gottes der Himmel angebetet, was uns zum nächsten Thema -der
+        Himmelsanbetung- führt.
+    </div>
+    <h2>Himmelsanbetung</h2>
+    <div class="textbox">
+        In der Mongolei, als die nomadische Lebensweise vorwiegend war, haben die Leute an verschiedenste Arten des
+        Schamanismus geglaubt. Eines der meist verbreiten Glauben war der Tengrismus. Er basiert auf dem Glauben, dass
+        die Berge, Flüsse und Bäume von einem Geist bewohnt sind. Tengri, der grosse Geist des Himmels gilt als der
+        Erschaffer und Hüter des kosmischen Gleichgewichts und der natürlichen Kreisläufe. Deswegen soll der Mensch sich
+        und seine Umwelt im Gleichgewicht halten und je nach dem, wie gut man das macht, desto stärker ist seine
+        geistliche Kraft. Buyan ist ein Windpferd. Ein Mensch mit starkem Buyan denkt sehr klar, ist vorausschauend und
+        trifft stets die richtigen Entscheidungen. Wenn der Mensch seine Kraft für böse Absichten einsetzt und damit das
+        Gleichgewicht stört, schwächt er das Windpferd ab. Deshalb neigen böse Menschen irgendwann auch zur
+        Selbstzerstörung. Das unterstreicht die Wichtigkeit des Gleichgewichtes für die Mongolen damals. In dem Lied
+        jedoch werden die Sterne erwähnt, was hat das damit zu tun? Tengri im Himmel, die Sonne, der Mond und andere
+        Himmelskörper wurden angebetet, um das eigene Windpferd zu stärken und dadurch ein besseres Leben führen
+        können.
+    </div>
+    <h2>Das mongolische Reich</h2>
+    <div class="textbox">
+        In dem Lied "Tsas Narand Uyarna" geht es eher um die mongolische Kultur und ihre Philosophie des Lebens, aber
+        das Land und seine Geschichte ist auch echt spannend. Im 13. bis 14. Jahrhundert war das Mongolische Reich das
+        grösste zusammenhängende Reich in der Geschichte. Es waren vereinigte mongolische Stämme mit Osteuropa und
+        teilweise Asien, die die Fläche des Reichen ausgemachten. Der grösste Teil des Eurasischen Kontinents gehörte
+        dem bekanntesten mongolischen Imperator - Dschingis Khan.
+        Dschingis Khan wurde für sein Kriegstalent bekannt und immer mehr Leute wollten ihm folgen. Er war so geschickt
+        mit seinen Kriegsstrategien, sodass er schon als Jugendlicher von chinesischen Machthabern "Bewacher der
+        westlichen Grenze" genannt wurde. Die Methode seines Krieges hatte aber nichts mit Ehre zu tun: bestechen, mit
+        mehrfacher Überzahl oder auch in der Nacht angreifen (wie er meistens vorging), war ein normaler Teil seines
+        Vorgehens, was meistens in einer erfolgreichen Eroberung endete.
+    </div>
+    <script>
+        document.getElementById("dropdownButton").addEventListener("click", function () {
+            var dropdownContent = document.getElementById("dropdownContent");
+            var line1 = document.querySelector('.line1');
+            var line2 = document.querySelector('.line2');
+            var line3 = document.querySelector('.line3');
+
+            if (dropdownContent.style.display === "block") {
+                dropdownContent.style.display = "none"; // Hide the dropdown
+                // Reset widths
+                line1.style.width = '60px';
+                line2.style.width = '40px';
+                line3.style.width = '50px';
+            } else {
+                dropdownContent.style.display = "block"; // Show the dropdown
+                // Change widths
+                line1.style.width = '60px';
+                line2.style.width = '60px';
+                line3.style.width = '60px';
+            }
+        });
+    </script>
+</body>
+
 </html>
