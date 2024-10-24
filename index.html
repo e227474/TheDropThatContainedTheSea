@@ -1,69 +1,121 @@
 <!DOCTYPE html>
 <html lang="de" dir="auto">
-    <head>
-        <meta charset="utf-8">
-        <title>Weitere Informationen</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <header>
-            <button id="dropdownButton">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-            </button>
-            <div id="dropdownContent" class="dropdown-content">
-                <a href="https://e227474.github.io/TheDropThatContainedTheSea/TheDrinkFromGod.html">
-                    <div class="linkbox">Haktan Gelen Serbeti - The Drink from God</div>
-                </a>
-                <a href="https://e227474.github.io/TheDropThatContainedTheSea/DarkClouds.html">
-                    <div class="linkbox">Temen Oblak - Dark Clouds</div>
-                </a>
-                <a href="https://e227474.github.io/TheDropThatContainedTheSea/WaterPrelude.html">
-                    <div class="linkbox">Iza Ngomoso</div>
-                </a>
-                <a href="https://e227474.github.io/TheDropThatContainedTheSea/TheHeartOfSnow.html">
-                    <div class="linkbox">Tsad Narand Uyarna - The Heart of Snow</div>
-                </a>
-                <a href="https://e227474.github.io/TheDropThatContainedTheSea/SummerHasGone.html">
-                    <div class="linkbox">Passou o Verao - Summer Has Gone</div>
-                </a>
-                <a href="https://e227474.github.io/TheDropThatContainedTheSea/GoddessRiver.html">
-                    <div class="linkbox">Devipravaha - Goddess River</div>
-                </a>
-                <a href="https://e227474.github.io/TheDropThatContainedTheSea/Sirens.html">
-                    <div class="linkbox">Seirenes - Sirens</div>
-                </a>
-                <a href="https://e227474.github.io/TheDropThatContainedTheSea/TheStormDrivenSea.html">
-                    <div class="linkbox">Haf Gengr Hriđum - Das Stürmende Meer</div>
-                </a>
-                <a href="https://e227474.github.io/TheDropThatContainedTheSea/WeOverComeTheWind.html">
-                    <div class="linkbox">Waloyo Yamoni - We Overcome the Wind</div>
-                </a>
-            </div>
-        </header>
-        <h1>Alle Lieder</h1>
-        <script>
-            document.getElementById("dropdownButton").addEventListener("click", function () {
-                var dropdownContent = document.getElementById("dropdownContent");
-                var line1 = document.querySelector('.line1');
-                var line2 = document.querySelector('.line2');
-                var line3 = document.querySelector('.line3');
-    
-                if (dropdownContent.style.display === "block") {
-                    dropdownContent.style.display = "none"; // Hide the dropdown
-                    // Reset widths
-                    line1.style.width = '60px';
-                    line2.style.width = '40px';
-                    line3.style.width = '50px';
-                } else {
-                    dropdownContent.style.display = "block"; // Show the dropdown
-                    // Change widths
-                    line1.style.width = '60px';
-                    line2.style.width = '60px';
-                    line3.style.width = '60px';
-                }
-            });
-        </script>
-    </body>
+
+<head>
+    <meta charset="utf-8">
+    <title>Weitere Informationen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <button id="dropdownButton">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </button>
+        <div id="dropdownContent" class="dropdown-content">
+            <a href="https://e227474.github.io/TheDropThatContainedTheSea/TheDrinkFromGod.html">
+                <div class="linkbox">Haktan Gelen Serbeti - The Drink from God</div>
+            </a>
+            <a href="https://e227474.github.io/TheDropThatContainedTheSea/DarkClouds.html">
+                <div class="linkbox">Temen Oblak - Dark Clouds</div>
+            </a>
+            <a href="https://e227474.github.io/TheDropThatContainedTheSea/WaterPrelude.html">
+                <div class="linkbox">Iza Ngomoso</div>
+            </a>
+            <a href="https://e227474.github.io/TheDropThatContainedTheSea/TheHeartOfSnow.html">
+                <div class="linkbox">Tsad Narand Uyarna - The Heart of Snow</div>
+            </a>
+            <a href="https://e227474.github.io/TheDropThatContainedTheSea/SummerHasGone.html">
+                <div class="linkbox">Passou o Verao - Summer Has Gone</div>
+            </a>
+            <a href="https://e227474.github.io/TheDropThatContainedTheSea/GoddessRiver.html">
+                <div class="linkbox">Devipravaha - Goddess River</div>
+            </a>
+            <a href="https://e227474.github.io/TheDropThatContainedTheSea/Sirens.html">
+                <div class="linkbox">Seirenes - Sirens</div>
+            </a>
+            <a href="https://e227474.github.io/TheDropThatContainedTheSea/TheStormDrivenSea.html">
+                <div class="linkbox">Haf Gengr Hriđum - Das Stürmende Meer</div>
+            </a>
+            <a href="https://e227474.github.io/TheDropThatContainedTheSea/WeOverComeTheWind.html">
+                <div class="linkbox">Waloyo Yamoni - We Overcome the Wind</div>
+            </a>
+        </div>
+    </header>
+    <h1>Ueber diese Website</h1>
+    <h2>Erstellung</h2>
+    <div class="textbox">
+        GitHub Pages erlaubt es nicht, kein Index.html file zu haben. Aber damit fuer jedes Lied ein Separates Artikel
+        erstellt werden kann, und da ein QR-code pro Lied existiert, welcher auf eine separate Seite zeigen muss, muss
+        also pro Artikel eine separate Seite erstellt werden. <br>
+
+        Dies bedeutet das pro Seite ein html-file existiert. <br>
+
+        Es gibt auch weitere limitationen, wie zum Beispiel das kein Server-side rendering verwendet werden darf. Dies
+        bedeutet das die Ganze Website <b>nur</b> aus html, css und einfachem Javascript bestehen darf. Also
+        Javascript-Frameworks oder andere tools wie zum Beispiel die Google Material Web Library konnten nicht benutzt
+        werden.
+    </div>
+    <h2>Wer hat die Artikel auf dieser Website erstellt?</h2>
+    <div class="textbox">
+        <b>Haktan Gelen Serbeti - The Drink from God</b> <br>
+        Levent Bal, Dishan Selvanantham <br>
+
+        <b>Temen Oblak - Dark Clouds</b> <br>
+        Sara Broch Jahandar, Anja Baumann, Maurer Aline <br>
+
+        <b>Iza Ngomoso</b> <br>
+        Jelena Aleksandra Jovanoski, Zoe Donghi <br>
+
+        <b>Tsad Narand Uyarna - The Heart of Snow</b> <br>
+        Vanessa Tagliente, Yeva Skotar <br>
+
+        <b>Passou o Verao - Summer Has Gone</b> <br>
+        Yanic Nef, Ruben Nussbaumer<br>
+
+        <b>Devipravaha - Goddess River</b>
+        Sara Broch Jahandar, Anja Baumann, Maurer Aline <br>
+
+        <b>Seirenes - Sirens</b> <br>
+        Max Brügger, Loïc Schneider <br>
+
+        <b>Haf Gengr Hriđum - Das Stürmende Meer</b> <br>
+        Luka Adjancic, Nikolay Voropayev <br>
+
+        <b>Waloyo Yamoni - We Overcome the Wind</b>
+        Leonard Gaa, Gil Buholzer
+    </div>
+    <h2>Wer hat diese Website Erstellt?</h2>
+    <div class="textbox">
+        Die einzelnen Artikel wurden wie Oben beschrieben von Schuelern aus der Klasse 2AM geschrieben. Die Design-Idee des Menu buttons,
+        welcher animiert wird, stammt von Luka Adjancic. Alles andere, und dies beinhaltet die implementation des
+        Menu-Buttons, des Popup-Menus in Javascript, die Konversion aller Artikel zu html dateien und dieses Artikel
+        wurden von Nikolay Voropayev erstellt.
+    </div>
+    <script>
+        document.getElementById("dropdownButton").addEventListener("click", function () {
+            var dropdownContent = document.getElementById("dropdownContent");
+            var line1 = document.querySelector('.line1');
+            var line2 = document.querySelector('.line2');
+            var line3 = document.querySelector('.line3');
+
+            if (dropdownContent.style.display === "block") {
+                dropdownContent.style.display = "none"; // Hide the dropdown
+                // Reset widths
+                line1.style.width = '60px';
+                line2.style.width = '40px';
+                line3.style.width = '50px';
+            } else {
+                dropdownContent.style.display = "block"; // Show the dropdown
+                // Change widths
+                line1.style.width = '60px';
+                line2.style.width = '60px';
+                line3.style.width = '60px';
+            }
+        });
+    </script>
+</body>
+
 </html>
