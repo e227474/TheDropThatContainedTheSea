@@ -1,72 +1,111 @@
 <!DOCTYPE html>
 <html lang="de" dir="auto">
-    <head>
-        <meta charset="utf-8">
-        <title>Devipravaha</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <header>
-            <button id="dropdownButton">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-            </button>
-            <div id="dropdownContent" class="dropdown-content">
-                <a href="https://e227474.github.io/TheDropThatContainedTheSea/TheDrinkFromGod.html">
-                    <div class="linkbox">Haktan Gelen Serbeti - The Drink from God</div>
-                </a>
-                <a href="https://e227474.github.io/TheDropThatContainedTheSea/DarkClouds.html">
-                    <div class="linkbox">Temen Oblak - Dark Clouds</div>
-                </a>
-                <a href="https://e227474.github.io/TheDropThatContainedTheSea/WaterPrelude.html">
-                    <div class="linkbox">Iza Ngomoso</div>
-                </a>
-                <a href="https://e227474.github.io/TheDropThatContainedTheSea/TheHeartOfSnow.html">
-                    <div class="linkbox">Tsad Narand Uyarna - The Heart of Snow</div>
-                </a>
-                <a href="https://e227474.github.io/TheDropThatContainedTheSea/SummerHasGone.html">
-                    <div class="linkbox">Passou o Verao - Summer Has Gone</div>
-                </a>
-                <a href="https://e227474.github.io/TheDropThatContainedTheSea/GoddessRiver.html">
-                    <div class="linkbox">Devipravaha - Goddess River</div>
-                </a>
-                <a href="https://e227474.github.io/TheDropThatContainedTheSea/Sirens.html">
-                    <div class="linkbox">Seirenes - Sirens</div>
-                </a>
-                <a href="https://e227474.github.io/TheDropThatContainedTheSea/TheStormDrivenSea.html">
-                    <div class="linkbox">Haf Gengr Hriđum - Das Stürmende Meer</div>
-                </a>
-                <a href="https://e227474.github.io/TheDropThatContainedTheSea/WeOverComeTheWind.html">
-                    <div class="linkbox">Waloyo Yamoni - We Overcome the Wind</div>
-                </a>
-                <a href="https://e227474.github.io/TheDropThatContainedTheSea/index.html">
-                    <div class="linkbox">Über diese Website</div>
-                </a>
-            </div>
-        </header>
-        <h1>Devipravaha</h1>
-        <script>
-            document.getElementById("dropdownButton").addEventListener("click", function () {
-                var dropdownContent = document.getElementById("dropdownContent");
-                var line1 = document.querySelector('.line1');
-                var line2 = document.querySelector('.line2');
-                var line3 = document.querySelector('.line3');
-    
-                if (dropdownContent.style.display === "block") {
-                    dropdownContent.style.display = "none"; // Hide the dropdown
-                    // Reset widths
-                    line1.style.width = '60px';
-                    line2.style.width = '40px';
-                    line3.style.width = '50px';
-                } else {
-                    dropdownContent.style.display = "block"; // Show the dropdown
-                    // Change widths
-                    line1.style.width = '60px';
-                    line2.style.width = '60px';
-                    line3.style.width = '60px';
-                }
-            });
-        </script>
-    </body>
+
+<head>
+    <meta charset="utf-8">
+    <title>Devipravaha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <button id="dropdownButton">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </button>
+        <div id="dropdownContent" class="dropdown-content">
+            <a href="https://e227474.github.io/TheDropThatContainedTheSea/TheDrinkFromGod.html">
+                <div class="linkbox">Haktan Gelen Serbeti - The Drink from God</div>
+            </a>
+            <a href="https://e227474.github.io/TheDropThatContainedTheSea/DarkClouds.html">
+                <div class="linkbox">Temen Oblak - Dark Clouds</div>
+            </a>
+            <a href="https://e227474.github.io/TheDropThatContainedTheSea/WaterPrelude.html">
+                <div class="linkbox">Iza Ngomoso</div>
+            </a>
+            <a href="https://e227474.github.io/TheDropThatContainedTheSea/TheHeartOfSnow.html">
+                <div class="linkbox">Tsad Narand Uyarna - The Heart of Snow</div>
+            </a>
+            <a href="https://e227474.github.io/TheDropThatContainedTheSea/SummerHasGone.html">
+                <div class="linkbox">Passou o Verao - Summer Has Gone</div>
+            </a>
+            <a href="https://e227474.github.io/TheDropThatContainedTheSea/GoddessRiver.html">
+                <div class="linkbox">Devipravaha - Goddess River</div>
+            </a>
+            <a href="https://e227474.github.io/TheDropThatContainedTheSea/Sirens.html">
+                <div class="linkbox">Seirenes - Sirens</div>
+            </a>
+            <a href="https://e227474.github.io/TheDropThatContainedTheSea/TheStormDrivenSea.html">
+                <div class="linkbox">Haf Gengr Hriđum - Das Stürmende Meer</div>
+            </a>
+            <a href="https://e227474.github.io/TheDropThatContainedTheSea/WeOverComeTheWind.html">
+                <div class="linkbox">Waloyo Yamoni - We Overcome the Wind</div>
+            </a>
+            <a href="https://e227474.github.io/TheDropThatContainedTheSea/index.html">
+                <div class="linkbox">Über diese Website</div>
+            </a>
+        </div>
+    </header>
+    <h1>Devipravaha</h1>
+    <div class="textbox">
+        Gesungen in Sansskrit- adaptiert aus dem Gangastakam von Adi Shankara
+
+        Arrangiert von einer Melodie geschrieben für Roopa Mahadevan. Erste Aufführung am 13.April.2014 in der Carnegie
+        Hall, New York, aufgeführt von Roopa Mahadevan in Zusammenarbeit mit dem Distinguished Concerts Orchestra, unter
+        der Leitung von Jonathan Griffith.
+    </div>
+    <h2>Indische Musik und Mythologie</h2>
+    <div class="textbox">
+        Die Spiritualität spielt eine wichtige Rolle in der indischen Musik. Eine zentrale Vorstellung der altindischen
+        Philosophie ist die Idee von Nada Brahma, welche sagt: «die Welt ist Klang». Die Vorstellung, dass die
+        Atmosphäre und der Kosmos als interaktiver Tanz aus Schwingungen zu verstehen sei, wurde bereits im Natya
+        Shastra, ein Werk über indische Kunsttheorie von circa 200 v. Chr. bis 200 n. Chr., festgehalten. Diese
+        Vorstellung wird von der modernen Physik über die hörbaren und unhörbaren Schwingungen bestätigt.
+
+        Die unhörbaren Schwingungen werden Anahata Nada genannt und sind erst nach langjährig geübter und tiefer
+        Meditation wahrnehmbar. Musik besteht aus Ahata Nada, hörbaren Schwingungen, welche leichter zugänglich sind. Da
+        Musik also auf einer zugänglicheren Ebene existiert, können beim Musizieren essenzielle Emotionen wie Liebe,
+        Mut, Furcht, Heiterkeit, Schrecken, Mitleid, Ekel oder Erstaunen zum Ausdruck gebracht werden. Im Alltag
+        durchleben wir diese Emotionen in Vermischungen, die Musik erlaubt uns jedoch, sie in Reinform wahrzunehmen.
+        Durch diese Reinheit können wir uns von unserer Individualität lösen und einen Zugang zur Glückseligkeit öffnen.
+        Dabei spielt es keine Rolle, ob die Reinheit über positive oder negative Emotionen erreicht wird.
+
+        Die Essenz, welche den Geist durchströmt, wird in Indien Rasa genannt. Wenn alle äusseren Umstände und der
+        persönliche Rasa stimmen, kann mit dem Raga (das, was den Geist färbt) der Schlüssel zum mystischen
+        Einheitserlebnis der indischen Musik geschaffen werden. Jeder Raga hat eine unverwechselbare melodische Gestalt.
+        Das «Färben des Geistes» mit Rasa braucht Zeit, oft wird über eine Stunde für das Spielen eines einzigen Raga
+        gebraucht. Als erstes wird ein Klangteppich ausgelegt, welcher Musizierenden und Zuhörenden das Einschwingen
+        ermöglicht. Der Grundton dient als Fundament für den Aufbau der Raga-Gestalt. Basierend auf dem Grundton werden
+        die ersten Melodietöne angespielt und gesungen, erst langsam und meditativ, dann nach und nach schneller und
+        komplexer, bis schliesslich in einem brillanten Feuerwerk ein wirbelnder, extatischer Schlusshöhepunkt erreicht
+        wird.
+
+        Ein Raga kann Menschen miteinander auf eine übernatürliche Weise verbinden. Diese Verbindung und das Verständnis
+        der Menschen untereinander ermöglichen ein harmonisches und friedliches Zusammenleben.
+    </div>
+    <script>
+        document.getElementById("dropdownButton").addEventListener("click", function () {
+            var dropdownContent = document.getElementById("dropdownContent");
+            var line1 = document.querySelector('.line1');
+            var line2 = document.querySelector('.line2');
+            var line3 = document.querySelector('.line3');
+
+            if (dropdownContent.style.display === "block") {
+                dropdownContent.style.display = "none"; // Hide the dropdown
+                // Reset widths
+                line1.style.width = '60px';
+                line2.style.width = '40px';
+                line3.style.width = '50px';
+            } else {
+                dropdownContent.style.display = "block"; // Show the dropdown
+                // Change widths
+                line1.style.width = '60px';
+                line2.style.width = '60px';
+                line3.style.width = '60px';
+            }
+        });
+    </script>
+</body>
+
 </html>
